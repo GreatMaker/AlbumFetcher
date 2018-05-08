@@ -1,0 +1,82 @@
+2018-05-04 12:35:32,426 - album_fetcher - INFO - album_fetcher started
+2018-05-04 16:34:29,017 - album_fetcher - INFO - album_fetcher started
+2018-05-04 17:04:01,117 - album_fetcher - INFO - album_fetcher started
+2018-05-04 17:05:26,618 - album_fetcher - INFO - album_fetcher started
+2018-05-04 17:06:21,101 - album_fetcher - INFO - album_fetcher started
+2018-05-04 17:07:56,051 - album_fetcher - INFO - album_fetcher started
+2018-05-04 17:08:05,301 - album_fetcher - INFO - album_fetcher started
+2018-05-04 17:08:05,301 - album_fetcher - INFO - required parameter PATH not passed. abort
+2018-05-04 17:09:39,950 - album_fetcher - INFO - album_fetcher started
+2018-05-04 17:10:51,354 - album_fetcher - INFO - album_fetcher started
+2018-05-04 17:10:51,355 - album_fetcher - INFO - Verbose mode activated
+2018-05-04 17:11:08,584 - album_fetcher - INFO - album_fetcher started
+2018-05-04 18:09:59,151 - album_fetcher - INFO - album_fetcher started
+2018-05-04 18:11:00,530 - album_fetcher - INFO - album_fetcher started
+2018-05-04 18:11:43,161 - album_fetcher - INFO - album_fetcher started
+2018-05-04 18:12:33,257 - album_fetcher - INFO - album_fetcher started
+2018-05-04 18:14:22,567 - album_fetcher - INFO - album_fetcher started
+2018-05-08 14:46:08,357 - album_fetcher - INFO - album_fetcher started
+2018-05-08 14:46:08,358 - album_fetcher - INFO - required parameter PATH not passed. abort
+2018-05-08 14:50:07,487 - album_fetcher - INFO - album_fetcher started
+2018-05-08 14:52:49,103 - album_fetcher - INFO - album_fetcher started
+2018-05-08 14:53:52,036 - album_fetcher - INFO - album_fetcher started
+2018-05-08 14:53:52,036 - album_fetcher - INFO - Verbose mode activated
+2018-05-08 14:55:15,953 - album_fetcher - INFO - album_fetcher started
+2018-05-08 14:55:15,953 - album_fetcher - INFO - Verbose mode activated
+2018-05-08 14:55:49,920 - album_fetcher - INFO - album_fetcher started
+2018-05-08 14:55:49,920 - album_fetcher - INFO - Verbose mode activated
+2018-05-08 14:55:49,920 - album_fetcher - INFO - Running in the folder: questopath
+2018-05-08 14:56:33,076 - album_fetcher - INFO - album_fetcher started
+2018-05-08 14:56:33,077 - album_fetcher - INFO - Verbose mode activated
+2018-05-08 14:56:33,077 - album_fetcher - INFO - Running in the folder: questopath
+2018-05-08 14:56:33,077 - album_fetcher - INFO - Found file: ['SampleAudio_0.7mb.mp3']
+2018-05-08 14:56:33,077 - album_fetcher - INFO - Found file: ['SampleAudio_0.7mb.mp3']
+2018-05-08 14:59:01,486 - album_fetcher - INFO - album_fetcher started
+2018-05-08 14:59:01,486 - album_fetcher - INFO - Verbose mode activated
+2018-05-08 14:59:01,486 - album_fetcher - INFO - Running in the folder: questopath
+2018-05-08 14:59:01,486 - album_fetcher - INFO - Found file: C:\Users\Andrea\PycharmProjects\AlbumFetcher\data\['test']\['SampleAudio_0.7mb.mp3']
+2018-05-08 14:59:01,486 - album_fetcher - INFO - Found file: C:\Users\Andrea\PycharmProjects\AlbumFetcher\data\test\[]\['SampleAudio_0.7mb.mp3']
+2018-05-08 14:59:45,920 - album_fetcher - INFO - album_fetcher started
+2018-05-08 14:59:45,920 - album_fetcher - INFO - Verbose mode activated
+2018-05-08 14:59:45,920 - album_fetcher - INFO - Running in the folder: questopath
+2018-05-08 14:59:45,920 - album_fetcher - INFO - Found file: C:\Users\Andrea\PycharmProjects\AlbumFetcher\data\['test']\['SampleAudio_0.7mb.mp3']
+2018-05-08 14:59:45,920 - album_fetcher - INFO - Found file: C:\Users\Andrea\PycharmProjects\AlbumFetcher\data\test\[]\['SampleAudio_0.7mb.mp3']
+2018-05-08 14:59:50,920 - album_fetcher - INFO - album_fetcher started
+2018-05-08 14:59:50,920 - album_fetcher - INFO - Verbose mode activated
+2018-05-08 14:59:50,920 - album_fetcher - INFO - Running in the folder: questopath
+2018-05-08 14:59:50,920 - album_fetcher - INFO - Found file: C:\Users\Andrea\PycharmProjects\AlbumFetcher\data\['test']\['SampleAudio_0.7mb.mp3']
+2018-05-08 14:59:50,920 - album_fetcher - INFO - Found file: C:\Users\Andrea\PycharmProjects\AlbumFetcher\data\test\[]\['SampleAudio_0.7mb.mp3']
+2018-05-08 15:06:23,886 - album_fetcher - INFO - album_fetcher started
+2018-05-08 15:06:23,886 - album_fetcher - INFO - Verbose mode activated
+2018-05-08 15:06:23,886 - album_fetcher - INFO - Running in the folder: questopath
+2018-05-08 15:07:37,503 - album_fetcher - INFO - album_fetcher started
+2018-05-08 15:07:37,503 - album_fetcher - INFO - Verbose mode activated
+2018-05-08 15:07:37,503 - album_fetcher - INFO - Running in the folder: questopath
+2018-05-08 15:08:20,153 - album_fetcher - INFO - album_fetcher started
+2018-05-08 15:08:20,153 - album_fetcher - INFO - Verbose mode activated
+2018-05-08 15:08:20,153 - album_fetcher - INFO - Running in the folder: questopath
+2018-05-08 15:09:05,253 - album_fetcher - INFO - album_fetcher started
+2018-05-08 15:09:05,253 - album_fetcher - INFO - Verbose mode activated
+2018-05-08 15:09:05,253 - album_fetcher - INFO - Running in the folder: questopath
+2018-05-08 15:09:21,687 - album_fetcher - INFO - Found file: C\test\SampleAudio_0.7mb.mp3
+2018-05-08 15:10:30,954 - album_fetcher - INFO - album_fetcher started
+2018-05-08 15:10:30,954 - album_fetcher - INFO - Verbose mode activated
+2018-05-08 15:10:30,954 - album_fetcher - INFO - Running in the folder: questopath
+2018-05-08 15:10:30,954 - album_fetcher - INFO - Found file: SampleAudio_0.7mb.mp3
+2018-05-08 15:10:30,954 - album_fetcher - INFO - Found file: SampleAudio_0.7mb.mp3
+2018-05-08 15:11:01,570 - album_fetcher - INFO - album_fetcher started
+2018-05-08 15:11:01,570 - album_fetcher - INFO - Verbose mode activated
+2018-05-08 15:11:01,570 - album_fetcher - INFO - Running in the folder: questopath
+2018-05-08 15:12:01,020 - album_fetcher - INFO - album_fetcher started
+2018-05-08 15:12:01,020 - album_fetcher - INFO - Verbose mode activated
+2018-05-08 15:12:01,020 - album_fetcher - INFO - Running in the folder: questopath
+2018-05-08 15:12:01,020 - album_fetcher - INFO - Found file: C:\Users\Andrea\PycharmProjects\AlbumFetcher\data in test\SampleAudio_0.7mb.mp3
+2018-05-08 15:12:14,870 - album_fetcher - INFO - album_fetcher started
+2018-05-08 15:12:14,870 - album_fetcher - INFO - Verbose mode activated
+2018-05-08 15:12:14,870 - album_fetcher - INFO - Running in the folder: questopath
+2018-05-08 15:12:27,929 - album_fetcher - INFO - Found file: C:\Users\Andrea\PycharmProjects\AlbumFetcher\data in test\SampleAudio_0.7mb.mp3
+2018-05-08 15:13:17,970 - album_fetcher - INFO - album_fetcher started
+2018-05-08 15:13:17,970 - album_fetcher - INFO - Verbose mode activated
+2018-05-08 15:13:17,970 - album_fetcher - INFO - Running in the folder: questopath
+2018-05-08 15:13:17,970 - album_fetcher - INFO - Found file: SampleAudio_0.7mb.mp3 in C:\Users\Andrea\PycharmProjects\AlbumFetcher\data
+2018-05-08 15:13:17,970 - album_fetcher - INFO - Found file: SampleAudio_0.7mb.mp3 in C:\Users\Andrea\PycharmProjects\AlbumFetcher\data\test
