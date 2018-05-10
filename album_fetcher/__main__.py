@@ -1,4 +1,5 @@
 from . import settings
+from . import data_list
 from .__init__ import logger, arguments
 from os import walk
 import taglib
@@ -27,6 +28,8 @@ if __name__.endswith('__main__'):
 
                     song = taglib.File(dirpath + "/" + name)
                     logger.info("Song info: %s", song.tags)
+
+                    data_list.insert_entry(song["ARTISTALBUM"], song["ALBUM"])
 
     else:
         print("")
