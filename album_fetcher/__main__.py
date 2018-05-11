@@ -29,8 +29,10 @@ if __name__.endswith('__main__'):
                     song = taglib.File(dirpath + "/" + name)
                     logger.info("Song info: %s", song.tags)
 
-                    data_list.insert_entry(song["ARTISTALBUM"], song["ALBUM"])
+                    data_list.insert_entry(song.tags["ALBUMARTIST"], song.tags["ALBUM"], song.tags["MUSICBRAINZ_ARTISTID"], song.tags["ORIGINALYEAR"], song.tags["MUSICBRAINZ_RELEASEGROUPID"])
 
     else:
         print("")
         logger.info("required parameter PATH not passed. abort")
+
+    pass
