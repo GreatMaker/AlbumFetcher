@@ -35,4 +35,6 @@ if __name__.endswith('__main__'):
         print("")
         logger.info("required parameter PATH not passed. abort")
 
+    # process data list by artist and add musicbrainz results
+    data_list.process_data()
     pass
