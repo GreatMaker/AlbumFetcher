@@ -1,5 +1,6 @@
 from .__init__ import logger
 from . import music_query
+from . import settings
 
 music_data = []
 
@@ -24,6 +25,15 @@ class MusicArtist:
     def get_albums(self):
         return self.albums
 
+    def has_album(self, alb_id):
+        ret = 0
+        for alb in self.albums:
+            if alb_id == alb[2]:
+                ret = 1
+                break
+
+        return ret
+
 
 def insert_entry(artist_name, album_name, artist_id, album_year, group_id, local=True):
     list_index = -1
@@ -39,14 +49,16 @@ def insert_entry(artist_name, album_name, artist_id, album_year, group_id, local
 
     # Create artist or use the existing one
     if list_index == -1:
-        logger.info("Creating artist: %s", artist_name)
+        if settings.is_verbose:
+            logger.info("Creating artist: %s", artist_name)
         obj = MusicArtist(artist_name, artist_id)
     else:
         obj = music_data[list_index]
 
     # Set album name if it's not already in
-    if (album_name, album_year, group_id, local) not in obj.get_albums():
-        logger.info("Inserting album: %s for artist: %s", album_name, artist_name)
+    if obj.has_album(group_id) == 0:
+        if settings.is_verbose:
+            logger.info("Inserting album: %s for artist: %s", album_name, artist_name)
         obj.set_album(album_name, album_year, group_id, local)
 
     # Adding object to music_data list at first artist appearence
@@ -58,6 +70,11 @@ def process_data():
 
     # process artists
     for artist_data in music_data:
-        print(artist_data.get_artist_name())
+
+        a = artist_data.get_artist_id()
         getdata = music_query.get_artist_releases(artist_data.get_artist_id())
+
+        if getdata is not None:
+            for releases in getdata:
+                insert_entry(artist_data.get_artist_name(), releases[0], artist_data.get_artist_id(), '2000', releases[1], False)
     pass
